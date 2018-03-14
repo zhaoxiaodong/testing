@@ -1,0 +1,11 @@
+framework module StudentSDK {
+  umbrella header "StudentSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module StudentSDK.Swift {
+    header "StudentSDK-Swift.h"
+    requires objc
+}
